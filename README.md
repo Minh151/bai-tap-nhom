@@ -13,3 +13,11 @@
 -Bài toán Kalo: Có N đồ vật, khối lượng w[i], giá trị v[i]. Tìm cách chọn sao cho không quá W, giá trị lớn nhất.
 
 3.Hướng giải quyết bài toán
+a. Phân tích bài toán
+-Bài toán yêu cầu tìm ra cách chọn số đồ vật sao cho khối lượng không vượt quá giá trị W cho trước và giá trị V lớn nhất
+-input: + số đồ vật N
+        + N dòng mỗi dòng 2 cột tương ứng với khối lượng w và giá trị v
+-output: + Giá trị lớn nhất
+         + Những đồ vật được chọn
+         
+b.Thuật toán / Hướng tiếp cận
