@@ -38,7 +38,7 @@
 4. Trả về giá trị lớn hơn giữa hai giá trị trên.
 5. Hàm `itemsSelected` xác định các đồ vật được chọn bằng cách duyệt ngược lại từ kết quả của hàm `knapsack`.
 
-## 4. Sơ đồ mô phỏng thuật toán
+#### Sơ đồ mô phỏng thuật toán
 
 ```plaintext
 +--------------------+
@@ -57,39 +57,39 @@
 +----------------------------+
           |
           v
-+----------------------------+
-| If N == 0 or W == 0        |
-|   Return 0                 |
-| Else if w[N-1] > W         |
-|   Call knapsack(N-1, w, v, W) |
-| Else                       |
-|   include = v[N-1] +       |
-|   knapsack(N-1, w, v, W-w[N-1]) |
++------------------------------------+
+| If N == 0 or W == 0                |
+|   Return 0                         |
+| Else if w[N-1] > W                 |
+|   Call knapsack(N-1, w, v, W)      |
+| Else                               |
+|   include = v[N-1] +               |
+|   knapsack(N-1, w, v, W-w[N-1])    |
 |   exclude = knapsack(N-1, w, v, W) |
-|   Return max(include, exclude) |
-+----------------------------+
+|   Return max(include, exclude)     |
++------------------------------------+
           |
           v
-+----------------------------+
++------------------------------------------+
 | Call itemsSelected(N, w, v, W, selected) |
-+----------------------------+
++------------------------------------------+
           |
           v
-+----------------------------+
-| If N == 0 or W == 0        |
-|   Return                   |
-| Else if w[N-1] > W         |
-|   Call itemsSelected(N-1, w, v, W, selected) |
-| Else                       |
-|   include = v[N-1] +       |
-|   knapsack(N-1, w, v, W-w[N-1]) |
-|   exclude = knapsack(N-1, w, v, W) |
-|   If include > exclude     |
-|     selected[N-1] = true   |
++-------------------------------------------------------+
+| If N == 0 or W == 0                                   |
+|   Return                                              |
+| Else if w[N-1] > W                                    |
+|   Call itemsSelected(N-1, w, v, W, selected)          |
+| Else                                                  |
+|   include = v[N-1] +                                  |
+|   knapsack(N-1, w, v, W-w[N-1])                       |
+|   exclude = knapsack(N-1, w, v, W)                    |
+|   If include > exclude                                |
+|     selected[N-1] = true                              |
 |     Call itemsSelected(N-1, w, v, W-w[N-1], selected) |
-|   Else                     |
-|     Call itemsSelected(N-1, w, v, W, selected) |
-+----------------------------+
+|   Else                                                |
+|     Call itemsSelected(N-1, w, v, W, selected)        |
++-------------------------------------------------------+
           |
           v
 +--------------------+
