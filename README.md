@@ -1,5 +1,5 @@
 # Báo cáo Bài tập lớn - Nhóm 5
- 
+
 ## 1. Thông tin nhóm
 | STT |       Thành viên     | MSV        | Vai trò   |
 |-----|----------------------|------------|-----------|
@@ -18,6 +18,7 @@
 
 #### Input:
 + Dòng đầu tiên chứa số đồ vật N
++ Dòng tiếp theo chứa số nguyên dương W
 + N dòng tiếp theo mỗi dòng chứa 2 số nguyên dương w thứ i và v thứ i
 
 #### Output:
@@ -25,8 +26,6 @@
 + Dòng thứ hai in ra chỉ số các vật được chọn theo thứ tự tăng dần
          
 ### b. Thuật toán / Hướng tiếp cận
-- Sử dụng phương pháp quy hoạch động (dynamic programming) để giải quyết bài toán.
-- ### b. Thuật toán / Hướng tiếp cận
 - Sử dụng phương pháp quy hoạch động (dynamic programming) để giải quyết bài toán.
 - Hàm `knapsack` tính giá trị lớn nhất có thể đạt được với khối lượng tối đa là `W`.
 - Hàm `itemsSelected` xác định các đồ vật được chọn để đạt được giá trị lớn nhất.
@@ -92,6 +91,20 @@
 +-------------------------------------------------------+
           |
           v
-+--------------------+
-| End                |
-+--------------------+
++----------------------+
+|       End            |
++----------------------+
+```
+## 4.Ví dụ minh họa
+### Ví dụ 1
+#### input:
+- Enter the number of items: 4
+- Enter the max capacity: 10
+- Enter the weight and value of each item: 
+- 5	60
+- 4	40
+- 6	30
+- 3	50
+#### output:
+- The max value possible is 110
+- Items that were selected: 1 4
