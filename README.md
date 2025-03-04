@@ -17,12 +17,12 @@
 - Bài toán yêu cầu tìm ra cách chọn số đồ vật sao cho khối lượng không vượt quá giá trị W cho trước và giá trị V lớn nhất
 
 #### Input:
-+ số đồ vật N
-+ N dòng mỗi dòng 2 cột tương ứng với khối lượng w và giá trị v
++ Dòng đầu tiên chứa số đồ vật N
++ N dòng tiếp theo mỗi dòng chứa 2 số nguyên dương w thứ i và v thứ i
 
 #### Output:
-+ Giá trị lớn nhất
-+ Những đồ vật được chọn
++ Dòng đầu tiên in ra tổng giá trị lớn nhất của các vật được chọn
++ Dòng thứ hai in ra chỉ số các vật được chọn theo thứ tự tăng dần
          
 ### b. Thuật toán / Hướng tiếp cận
--
+- 
