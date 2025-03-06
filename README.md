@@ -63,6 +63,16 @@ knapsack(N, W)  // Bắt đầu với N đồ vật và sức chứa W
                     +-- ...  // Tiếp tục với sức chứa giảm
 ```
 
+#### Ưu điểm:
+- Thuật toán sử dụng đệ quy và backtracking, giúp dễ dàng hiểu và triển khai.
+- Cấu trúc mã nguồn rõ ràng và dễ theo dõi.
+- Chính xác: Thuật toán đảm bảo tìm ra giá trị lớn nhất có thể đạt được với khối lượng tối đa cho trước. 
+- Tổng quát: Thuật toán có thể áp dụng cho bất kỳ số lượng đồ vật và khối lượng tối đa nào, miễn là các giá trị đầu vào hợp lệ.
+
+#### Nhược điểm:
+- Mỗi lần gọi đệ quy tạo ra một khung ngăn xếp mới, dẫn đến việc sử dụng nhiều bộ nhớ khi số lượng đồ vật lớn.
+- Phức tạp, tính toán lại nhiều lần cho cùng một trạng thái dẫn đến không hiệu quả cho các bài toán có số lượng đồ vật lớn.
+
 ## 4. Ví dụ minh họa
 ### Ví dụ 1
 #### input:
