@@ -204,7 +204,7 @@ knapsack(N, W)  // Bắt đầu với N đồ vật và sức chứa W
    - Các đồ vật được chọn là 1, 2 và 4.
 
 ## 5. Link video báo cáo
-- [Video báo cáo nhóm 5]()
+- [Video báo cáo nhóm 5](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.canva.com%2Fdesign%2FDAGg4_S5Gxs%2FLKAY6TielNYqrxCD7Jg5qw%2Fedit%3Futm_content%3DDAGg4_S5Gxs%26utm_campaign%3Ddesignshare%26utm_medium%3Dlink2%26utm_source%3Dsharebutton%26fbclid%3DIwZXh0bgNhZW0CMTAAAR1AvK_hbmlwwTq7SJMc5huJjq6A6_8vRaVlaHZMM-RXZrYHfB5k5la9NNY_aem_agq9c2xC6pVfMRNADZQczA&h=AT2KKvOSuQyuPATMtaAmjgNkeklJwMcQXY5zttlTgN1fMdZqI5NuNcTWefr0JhHRz72A3ItO3Wi7jHoK92rMwfQbTJ8EtsWO5K94CqPWlxzUQsqYhnRFTD5UzI-mrkQpL_-E62GK2JStv_E)
 
 ## 6. Link source code
 - [Link src](https://github.com/Minh151/bai-tap-nhom/tree/main/src)
