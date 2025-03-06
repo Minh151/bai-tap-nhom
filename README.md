@@ -7,7 +7,7 @@
 | 2   | Nguyễn Lê Nhật Minh  | 24022817   | Vai trò 2 |
 | 3   | Nguyễn Minh Quân     | 24022825   | Vai trò 3 |
 | 4   | Nguyễn Thủy Nguyên   | 24022821   | Vai trò 4 |
-| 5   | Võ Hồng Duy          | 24022804   | Vai trò 5 |
+| 5   | Vũ Quang Huy         | 24022804   | Vai trò 5 |
 
 ## 2. Thông tin bài tập
 - Bài toán Kalo: Có N đồ vật, khối lượng w[i], giá trị v[i]. Tìm cách chọn sao cho không quá W, giá trị lớn nhất.
@@ -194,6 +194,7 @@ knapsack(N, W)  // Bắt đầu với N đồ vật và sức chứa W
    - Các đồ vật được chọn là 1, 2 và 4.
 
 ## 5. Link video báo cáo
+- [Video báo cáo nhóm 5]()
 
 ## 6. Link source code
 - [Link src](https://github.com/Minh151/bai-tap-nhom/tree/main/src)
