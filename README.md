@@ -127,7 +127,7 @@ knapsack(N, W)  // Bắt đầu với N đồ vật và sức chứa W
 - 8 15
 - 9 16
 #### output:
-- The max value possible is 39
+- The max value possible is 28
 - Items that were selected: 2 4
 
 ### Giải thích cách giải ví dụ 2
@@ -156,7 +156,7 @@ knapsack(N, W)  // Bắt đầu với N đồ vật và sức chứa W
      - Tiếp tục xác định các đồ vật còn lại.
 
 4. **Kết quả cuối cùng**:
-   - Giá trị lớn nhất có thể đạt được là 39.
+   - Giá trị lớn nhất có thể đạt được là 28.
    - Các đồ vật được chọn là 2 và 4.
 
 ### Ví dụ 3
@@ -171,8 +171,8 @@ knapsack(N, W)  // Bắt đầu với N đồ vật và sức chứa W
 - 8 25
 - 9 35
 #### output:
-- The max value possible is 75
-- Items that were selected: 1 2 4
+- The max value possible is 80
+- Items that were selected: 1 3
 
 ### Giải thích cách giải ví dụ 3
 1. **Khởi tạo và nhập dữ liệu**:
@@ -200,11 +200,11 @@ knapsack(N, W)  // Bắt đầu với N đồ vật và sức chứa W
      - Tiếp tục xác định các đồ vật còn lại.
 
 4. **Kết quả cuối cùng**:
-   - Giá trị lớn nhất có thể đạt được là 75.
-   - Các đồ vật được chọn là 1, 2 và 4.
+   - Giá trị lớn nhất có thể đạt được là 80.
+   - Các đồ vật được chọn là 1, 3.
 
 ## 5. Link video báo cáo
-- [Video báo cáo nhóm 5](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.canva.com%2Fdesign%2FDAGg4_S5Gxs%2FLKAY6TielNYqrxCD7Jg5qw%2Fedit%3Futm_content%3DDAGg4_S5Gxs%26utm_campaign%3Ddesignshare%26utm_medium%3Dlink2%26utm_source%3Dsharebutton%26fbclid%3DIwZXh0bgNhZW0CMTAAAR1AvK_hbmlwwTq7SJMc5huJjq6A6_8vRaVlaHZMM-RXZrYHfB5k5la9NNY_aem_agq9c2xC6pVfMRNADZQczA&h=AT2KKvOSuQyuPATMtaAmjgNkeklJwMcQXY5zttlTgN1fMdZqI5NuNcTWefr0JhHRz72A3ItO3Wi7jHoK92rMwfQbTJ8EtsWO5K94CqPWlxzUQsqYhnRFTD5UzI-mrkQpL_-E62GK2JStv_E)
+- [Video báo cáo nhóm 5](https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F17kIptCDGu7hbY32eg1_10oXHYqHwXM1nzWeHz64czZw%2Fedit%3Fusp%3Dsharing%26fbclid%3DIwZXh0bgNhZW0CMTAAAR3gGGiM8kDedN85j5EfJFqO22Usj6AFyes9r9ifeijtGTtvceNWg5FhuZc_aem_bpEIjA0H6i6vH7SQ6opaCg&h=AT3iLM3SwZ1Yofm-7zv-8R3-FxOBty7IQ1yDjhJy_HzYNmGZCWBMzjvPgZZ0oHnb8usEE_Q8REsuQIzYgeKsPEQTxxj3AzThymD7JqDEotPxbLL7Km6xCiFKwgZslfIcWApJm99CidcO9HY)
 
 ## 6. Link source code
 - [Link src](https://github.com/Minh151/bai-tap-nhom/tree/main/src)
