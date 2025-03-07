@@ -203,8 +203,8 @@ knapsack(N, W)  // Bắt đầu với N đồ vật và sức chứa W
    - Giá trị lớn nhất có thể đạt được là 80.
    - Các đồ vật được chọn là 1, 3.
 
-## 5. Link video báo cáo
-- [Video báo cáo nhóm 5](https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F17kIptCDGu7hbY32eg1_10oXHYqHwXM1nzWeHz64czZw%2Fedit%3Fusp%3Dsharing%26fbclid%3DIwZXh0bgNhZW0CMTAAAR3gGGiM8kDedN85j5EfJFqO22Usj6AFyes9r9ifeijtGTtvceNWg5FhuZc_aem_bpEIjA0H6i6vH7SQ6opaCg&h=AT3iLM3SwZ1Yofm-7zv-8R3-FxOBty7IQ1yDjhJy_HzYNmGZCWBMzjvPgZZ0oHnb8usEE_Q8REsuQIzYgeKsPEQTxxj3AzThymD7JqDEotPxbLL7Km6xCiFKwgZslfIcWApJm99CidcO9HY)
+## 5. Link báo cáo
+- [Slide báo cáo nhóm 5](https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F17kIptCDGu7hbY32eg1_10oXHYqHwXM1nzWeHz64czZw%2Fedit%3Fusp%3Dsharing%26fbclid%3DIwZXh0bgNhZW0CMTAAAR3gGGiM8kDedN85j5EfJFqO22Usj6AFyes9r9ifeijtGTtvceNWg5FhuZc_aem_bpEIjA0H6i6vH7SQ6opaCg&h=AT3iLM3SwZ1Yofm-7zv-8R3-FxOBty7IQ1yDjhJy_HzYNmGZCWBMzjvPgZZ0oHnb8usEE_Q8REsuQIzYgeKsPEQTxxj3AzThymD7JqDEotPxbLL7Km6xCiFKwgZslfIcWApJm99CidcO9HY)
 
 ## 6. Link source code
 - [Link src](https://github.com/Minh151/bai-tap-nhom/tree/main/src)
