@@ -3,11 +3,11 @@
 ## 1. Thông tin nhóm
 | STT |       Thành viên     | MSV        | Vai trò                      |
 |-----|----------------------|------------|------------------------------|
-| 1   | Bùi Ngọc Phương Linh | 24022809   | Làm slide                    |
-| 2   | Nguyễn Lê Nhật Minh  | 24022817   | Viết readme                  |
+| 1   | Bùi Ngọc Phương Linh | 24022809   | Làm Slide                    |
+| 2   | Nguyễn Lê Nhật Minh  | 24022817   | Viết README                  |
 | 3   | Nguyễn Minh Quân     | 24022825   | Tìm thông tin và đặt câu hỏi |
-| 4   | Nguyễn Thủy Nguyên   | 24022821   | Làm slide                    |
-| 5   | Vũ Quang Huy         | 24022804   | Thuật toán và code           |
+| 4   | Nguyễn Thủy Nguyên   | 24022821   | Làm Slide                    |
+| 5   | Vũ Quang Huy         | 24022804   | Thuật toán và Code           |
 
 ## 2. Thông tin bài tập
 - Bài toán Kalo: Có N đồ vật, khối lượng w[i], giá trị v[i]. Tìm cách chọn sao cho không quá W, giá trị lớn nhất.
