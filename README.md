@@ -1,13 +1,13 @@
 # Báo cáo Bài tập lớn - Nhóm 5
 
 ## 1. Thông tin nhóm
-| STT |       Thành viên     | MSV        | Vai trò   |
-|-----|----------------------|------------|-----------|
-| 1   | Bùi Ngọc Phương Linh | 24022809   | Vai trò 1 |
-| 2   | Nguyễn Lê Nhật Minh  | 24022817   | Vai trò 2 |
-| 3   | Nguyễn Minh Quân     | 24022825   | Vai trò 3 |
-| 4   | Nguyễn Thủy Nguyên   | 24022821   | Vai trò 4 |
-| 5   | Võ Hồng Duy          | 24022804   | Vai trò 5 |
+| STT |       Thành viên     | MSV        | Vai trò                      |
+|-----|----------------------|------------|------------------------------|
+| 1   | Bùi Ngọc Phương Linh | 24022809   | Làm slide                    |
+| 2   | Nguyễn Lê Nhật Minh  | 24022817   | Viết readme                  |
+| 3   | Nguyễn Minh Quân     | 24022825   | Tìm thông tin và đặt câu hỏi |
+| 4   | Nguyễn Thủy Nguyên   | 24022821   | Làm slide                    |
+| 5   | Vũ quang huy         | 24022804   | Thuật toán và code           |
 
 ## 2. Thông tin bài tập
 - Bài toán Kalo: Có N đồ vật, khối lượng w[i], giá trị v[i]. Tìm cách chọn sao cho không quá W, giá trị lớn nhất.
@@ -63,6 +63,16 @@ knapsack(N, W)  // Bắt đầu với N đồ vật và sức chứa W
                     +-- ...  // Tiếp tục với sức chứa giảm
 ```
 
+#### Ưu điểm:
+- Thuật toán sử dụng đệ quy và backtracking, giúp dễ dàng hiểu và triển khai.
+- Cấu trúc mã nguồn rõ ràng và dễ theo dõi.
+- Chính xác: Thuật toán đảm bảo tìm ra giá trị lớn nhất có thể đạt được với khối lượng tối đa cho trước.
+- Tổng quát: Thuật toán có thể áp dụng cho bất kỳ số lượng đồ vật và khối lượng tối đa nào, miễn là các giá trị đầu vào hợp lệ.
+
+#### Nhược điểm:
+- Phức tạp, tính toán lại nhiều lần cho cùng một trạng thái dẫn đến việc không hiệu quả cho các bài toán có số lượng đồ vật lớn.
+- Mỗi lần gọi đệ quy tạo ra một khung ngăn xếp mới, dẫn đến việc sử dụng nhiều bộ nhớ khi số lượng đồ vật lớn.
+
 ## 4. Ví dụ minh họa
 ### Ví dụ 1
 #### input:
@@ -117,7 +127,7 @@ knapsack(N, W)  // Bắt đầu với N đồ vật và sức chứa W
 - 8 15
 - 9 16
 #### output:
-- The max value possible is 39
+- The max value possible is 28
 - Items that were selected: 2 4
 
 ### Giải thích cách giải ví dụ 2
@@ -146,7 +156,7 @@ knapsack(N, W)  // Bắt đầu với N đồ vật và sức chứa W
      - Tiếp tục xác định các đồ vật còn lại.
 
 4. **Kết quả cuối cùng**:
-   - Giá trị lớn nhất có thể đạt được là 39.
+   - Giá trị lớn nhất có thể đạt được là 28.
    - Các đồ vật được chọn là 2 và 4.
 
 ### Ví dụ 3
@@ -161,8 +171,8 @@ knapsack(N, W)  // Bắt đầu với N đồ vật và sức chứa W
 - 8 25
 - 9 35
 #### output:
-- The max value possible is 75
-- Items that were selected: 1 2 4
+- The max value possible is 80
+- Items that were selected: 1 3
 
 ### Giải thích cách giải ví dụ 3
 1. **Khởi tạo và nhập dữ liệu**:
@@ -190,10 +200,11 @@ knapsack(N, W)  // Bắt đầu với N đồ vật và sức chứa W
      - Tiếp tục xác định các đồ vật còn lại.
 
 4. **Kết quả cuối cùng**:
-   - Giá trị lớn nhất có thể đạt được là 75.
-   - Các đồ vật được chọn là 1, 2 và 4.
+   - Giá trị lớn nhất có thể đạt được là 80.
+   - Các đồ vật được chọn là 1, 3.
 
-## 5. Link video báo cáo
+## 5. Link báo cáo
+- [Slide báo cáo nhóm 5](https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F17kIptCDGu7hbY32eg1_10oXHYqHwXM1nzWeHz64czZw%2Fedit%3Fusp%3Dsharing%26fbclid%3DIwZXh0bgNhZW0CMTAAAR21AWnrLRCxGeNwZyIdOADwiYErKxxkyZswtFUhd1ZYnWvNgCEJ1vRQai8_aem_e553S14YQqelg_phhALHfA&h=AT2lc9kjdkRuNF8OQy863oFkbr_E6eM7b2TyOXfk_l2gmhZcu0M67CbvVzy9UsXHesjKgIsdbLBHjjWBAZ6Vao4n3OUAM4vRzOdKUi4OFVwTDXstGH5K8sbU_xTpd7TibNKOqrTMepXMvyg3tX65fA)
 
 ## 6. Link source code
 - [Link src](https://github.com/Minh151/bai-tap-nhom/tree/main/src)
