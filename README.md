@@ -7,7 +7,7 @@
 | 2   | Nguyễn Lê Nhật Minh  | 24022817   | Viết readme                  |
 | 3   | Nguyễn Minh Quân     | 24022825   | Tìm thông tin và đặt câu hỏi |
 | 4   | Nguyễn Thủy Nguyên   | 24022821   | Làm slide                    |
-| 5   | Vũ quang huy         | 24022804   | Thuật toán và code           |
+| 5   | Vũ Quang Huy         | 24022804   | Thuật toán và code           |
 
 ## 2. Thông tin bài tập
 - Bài toán Kalo: Có N đồ vật, khối lượng w[i], giá trị v[i]. Tìm cách chọn sao cho không quá W, giá trị lớn nhất.
