@@ -32,8 +32,8 @@
 
 #### Thuật toán:
 1. Nếu số đồ vật là 0 hoặc khối lượng tối đa là 0, trả về 0.
-2. Nếu khối lượng của đồ vật thứ N lớn hơn khối lượng tối đa, bỏ qua đồ vật này và gọi đệ quy cho N-1 đồ vật còn lại.
-3. Tính giá trị khi bao gồm đồ vật thứ N và khi không bao gồm đồ vật thứ N.
+2. Nếu khối lượng của đồ vật thứ N-1 lớn hơn khối lượng tối đa, bỏ qua đồ vật này và gọi đệ quy cho N-1 đồ vật còn lại.
+3. Tính giá trị khi bao gồm đồ vật thứ N-1 và khi không bao gồm đồ vật thứ N-1.
 4. Trả về giá trị lớn hơn giữa hai giá trị trên.
 5. Hàm `itemsSelected` xác định các đồ vật được chọn bằng cách duyệt ngược lại từ kết quả của hàm `knapsack`.
 
@@ -42,23 +42,23 @@
 ```plaintext
 knapsack(N, W)  // Bắt đầu với N đồ vật và sức chứa W
     |
-    +-- knapsack(N-1, W)  // Loại bỏ đồ vật thứ N
+    +-- knapsack(N-1, W)  // Loại bỏ đồ vật thứ N-1
     |       |
-    |       +-- knapsack(N-2, W)  // Loại bỏ đồ vật thứ N-1
+    |       +-- knapsack(N-2, W)  // Loại bỏ đồ vật thứ N-2
     |       |       |
     |       |       +-- ...  // Tiếp tục loại bỏ các đồ vật
     |       |
-    |       +-- knapsack(N-2, W-w[N-1])  // Bao gồm đồ vật thứ N-1
+    |       +-- knapsack(N-2, W-w[N-1])  // Bao gồm đồ vật thứ N-2
     |               |
     |               +-- ...  // Tiếp tục với sức chứa giảm
     |
-    +-- knapsack(N-1, W-w[N-1])  // Bao gồm đồ vật thứ N
+    +-- knapsack(N-1, W-w[N-1])  // Bao gồm đồ vật thứ N-1
             |
-            +-- knapsack(N-2, W-w[N-1])  // Loại bỏ đồ vật thứ N-1
+            +-- knapsack(N-2, W-w[N-1])  // Loại bỏ đồ vật thứ N-2
             |       |
             |       +-- ...  // Tiếp tục loại bỏ các đồ vật
             |
-            +-- knapsack(N-2, W-w[N-1]-w[N-2])  // Bao gồm đồ vật thứ N-1
+            +-- knapsack(N-2, W-w[N-1]-w[N-2])  // Bao gồm đồ vật thứ N-2
                     |
                     +-- ...  // Tiếp tục với sức chứa giảm
 ```
